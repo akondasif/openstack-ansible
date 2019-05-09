@@ -38,7 +38,7 @@ ceilometer_connection_string: "{{ ceilometer_db_type }}://{{ ceilometer_database
 
 #Ceilometer services info
 ceilometer_role_name: admin
-ceilometer_api_host_address: 0.0.0.0
+ceilometer_api_host_address: 127.0.0.0
 ceilometer_api_service_port: 8777
 ceilometer_collector_program_name: ceilometer-collector
 ceilometer_compute_program_name: ceilometer-agent-compute
